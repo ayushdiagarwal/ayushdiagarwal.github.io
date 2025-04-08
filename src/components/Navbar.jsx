@@ -19,12 +19,12 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/services" className="text-black hover:text-gray- px-8">
-                            03. Projects
+                        <a href="/services" className="text-black hover:text-gray-300 px-8">
+                            03. Contact
                         </a>
                     </li>
                     <li>
-                        <a href="/contact" className="text-black hover:text-gray-300 border-1 p-2">
+                        <a href="https://drive.google.com/file/d/1rxVgp8fSJXeCPmpXZxEpLEVZsPHlecGV/view?usp=sharing" target="_blank" className="text-black hover:text-gray-300 border-1 p-2">
                             Resume
                         </a>
                     </li>

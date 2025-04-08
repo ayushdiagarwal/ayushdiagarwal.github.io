@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "Project One",
+            "description": "This is a brief description of Project One.",
+            "imageUrl": "path/to/image1.jpg"
+        },
+        {
+            "title": "Project Two",
+            "description": "This is a brief description of Project Two.",
+            "imageUrl": "path/to/image2.jpg"
+        },
+        {
+            "title": "Project Three",
+            "description": "This is a brief description of Project Three.",
+            "imageUrl": "path/to/image3.jpg"
+        },
+        {
+            "title": "Project Four",
+            "description": "This is a brief description of Project Four.",
+            "imageUrl": "path/to/image4.jpg"
+        },
+        {
+            "title": "Project Five",
+            "description": "This is a brief description of Project Five.",
+            "imageUrl": "path/to/image5.jpg"
+        },
+        {
+            "title": "Project Six",
+            "description": "This is a brief description of Project Six.",
+            "imageUrl": "path/to/image6.jpg"
+        }
+    ]
+} 

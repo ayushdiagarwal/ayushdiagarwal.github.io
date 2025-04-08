@@ -1,18 +1,22 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import About from "./components/About";
+import SideProjects from "./components/SideProjects";
+import Contact from "./components/Contact";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
       <Navbar />
-      <About /> 
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <div className="px-4 md:px-8 lg:px-16 py-8">
+        <Home /> 
+        <About />
+        <SideProjects />
+        <Contact />
+      </div>
     </>
   );
 }
