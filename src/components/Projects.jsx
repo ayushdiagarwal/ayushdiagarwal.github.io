@@ -5,9 +5,8 @@ const projectsData = {
   featured: [
     {
       title: "Raycaster",
-      subtitle: "Psuedo 3D Generater",
-      description: "Simple Raycaster to create pseudo 3D scenes",
-      image: "https://www.worldofmusic.com.au/wp-content/uploads/2024/09/Fender-Player-II-Stratocaster-3-Colour-Sunburst-Full.jpg",
+      description: "This project is a simple Raycaster that generates pseudo 3D scenes. It uses basic raycasting techniques to simulate a 3D environment on a 2D plane, providing an interactive and visually engaging experience. The project is implemented using Rust and SDL2, showcasing the power and efficiency of these technologies in creating real-time graphics applications.",
+      image: "/src/assets/1.gif",
       links: {
         github: "https://github.com/AmyRChen/MERN-SocialMedia"
       },
@@ -15,12 +14,21 @@ const projectsData = {
     },
     {
       title: "Journal Web App",
-      description: "Online Journal Tool",
-      image: "https://www.worldofmusic.com.au/wp-content/uploads/2024/09/Fender-Player-II-Stratocaster-3-Colour-Sunburst-Full.jpg",
+      description: "Online Journal Tool that allows users to create, edit, and delete journal entries. It features a user-friendly interface and secure authentication, ensuring that users' data is protected. The application is built using Python and Django, leveraging SQL for database management.",
+      image: "/src/assets/2.gif",
       links: {
         github: "https://github.com/ayushdiagarwal/Journal-Web-App"
       },
       technologies: ["Python", "Django", "SQL"]
+    },
+    {
+      title: "Reinforcement Learning Flappy Bird",
+      description: "Implemented a neural network which learns to play Flappy Bird through Neuroevolution with fixed topologies from scratch. The project involves training the neural network using genetic algorithms to evolve the weights and biases. The neural network controls the bird's movements, learning to navigate through the pipes by optimizing its performance. This project showcases the application of machine learning techniques in game development and provides insights into training AI agents for complex tasks.",
+      image: "/src/assets/3.png",
+      links: {
+        github: "https://github.com/ayushdiagarwal/Flapp",
+        technologies: ["Python", "Numpy"]
+      }
     },
     {
       title: "ChatterBox",
@@ -67,7 +75,8 @@ const projectsData = {
       links: {
         github: "https://github.com/ayushdiagarwal/A--path-visualizer"
       }
-    }
+    },
+    
   ]
 };
 
@@ -75,14 +84,14 @@ const ProjectCard = ({ project, isFeatured = false, isReversed = false }) => {
   return (
     <div className={`flex justify-center items-center mt-12 mb-24 ${isFeatured ? 'flex-row' : 'flex-col'} ${isReversed ? 'flex-row-reverse' : ''}`}>
       {isFeatured && project.image && (
-        <div className="rounded-lg overflow-hidden hover:translate-y-[-5px] duration-300">
+        <div className="hidden md:block rounded-lg overflow-hidden hover:translate-y-[-5px] duration-300">
           <img src={project.image} alt={project.title} />
         </div>
       )}
       
-      <div className={`flex flex-col justify-center items-center font-ubuntu text-grey w-10/12 ${isFeatured ? (isReversed ? 'mr-6' : 'ml-6') : ''}`}>
+      <div className={`flex flex-col justify-center items-center font-ubuntu text-grey w-full md:w-10/12 ${isFeatured ? (isReversed ? 'md:mr-6' : 'md:ml-6') : ''}`}>
         <div className="flex flex-row justify-between w-full">
-          <div className="text-2xl font-semibold">{project.title}</div>
+          <div className="text-2xl font-semibold text-center w-full mb-6">{project.title}</div>
           <div className="flex">
             {project.links.github && (
               <a
@@ -103,7 +112,7 @@ const ProjectCard = ({ project, isFeatured = false, isReversed = false }) => {
         <div className="mb-3">{project.description}</div>
         
         {project.technologies && (
-          <div className="bg-deep-white rounded-full overflow-hidden p-2 text-sm flex">
+          <div className="bg-blue-100 mt-8 rounded-full overflow-hidden p-2 text-sm flex">
             {project.technologies.map((tech, index) => (
               <p key={index} className="mx-2">{tech}</p>
             ))}
@@ -114,7 +123,7 @@ const ProjectCard = ({ project, isFeatured = false, isReversed = false }) => {
   );
 };
 
-const SideProjects = () => {
+const Projects = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
@@ -184,4 +193,4 @@ const SideProjects = () => {
   );
 };
 
-export default SideProjects;
+export default Projects;

@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className={`md:flex md:justify-between md:items-center gap-16 md:h-full pt-10`}
+      className={`md:flex md:justify-center md:items-center gap-16 md:h-full pt-10`}
     >
       {/* MAIN TEXT */}
       <div className="flex flex-col items-center justify-center h-full py-10">
