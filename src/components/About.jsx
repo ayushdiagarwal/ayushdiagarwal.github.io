@@ -1,3 +1,5 @@
+import profileImg from "../assets/profile.jpg";
+
 const About = () => {
   return (
     <section
@@ -19,7 +21,7 @@ const About = () => {
       </div>
       <div>
         <div className="z-30 w-full max-w-[300px] md:max-w-[400px] rounded-full overflow-hidden hover:translate-y-[-5px] duration-300">
-          <img src="/src/assets/profile.jpg" alt="myself" />
+          <img src={profileImg} alt="myself" />
         </div>
       </div>
     </section>

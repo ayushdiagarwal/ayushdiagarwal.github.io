@@ -1,12 +1,15 @@
 import { useState } from "react";
 import githubIcon from '../assets/github.png';
+import raycaster from "../assets/1.png";
+import journal from "../assets/2.gif";
+import flapp from "../assets/3.png";
 
 const projectsData = {
   featured: [
     {
       title: "Raycaster",
       description: "This project is a simple Raycaster that generates pseudo 3D scenes. It uses basic raycasting techniques to simulate a 3D environment on a 2D plane, providing an interactive and visually engaging experience. The project is implemented using Rust and SDL2, showcasing the power and efficiency of these technologies in creating real-time graphics applications.",
-      image: "/src/assets/1.gif",
+      image: raycaster,
       links: {
         github: "https://github.com/AmyRChen/MERN-SocialMedia"
       },
@@ -15,7 +18,7 @@ const projectsData = {
     {
       title: "Journal Web App",
       description: "Online Journal Tool that allows users to create, edit, and delete journal entries. It features a user-friendly interface and secure authentication, ensuring that users' data is protected. The application is built using Python and Django, leveraging SQL for database management.",
-      image: "/src/assets/2.gif",
+      image: journal,
       links: {
         github: "https://github.com/ayushdiagarwal/Journal-Web-App"
       },
@@ -24,7 +27,7 @@ const projectsData = {
     {
       title: "Reinforcement Learning Flappy Bird",
       description: "Implemented a neural network which learns to play Flappy Bird through Neuroevolution with fixed topologies from scratch. The project involves training the neural network using genetic algorithms to evolve the weights and biases. The neural network controls the bird's movements, learning to navigate through the pipes by optimizing its performance. This project showcases the application of machine learning techniques in game development and provides insights into training AI agents for complex tasks.",
-      image: "/src/assets/3.png",
+      image: flapp,
       links: {
         github: "https://github.com/ayushdiagarwal/Flapp",
         technologies: ["Python", "Numpy"]
