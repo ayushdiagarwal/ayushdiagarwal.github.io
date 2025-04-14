@@ -30,8 +30,8 @@ const projectsData = {
       image: flapp,
       links: {
         github: "https://github.com/ayushdiagarwal/Flapp",
-        technologies: ["Python", "Numpy"]
-      }
+      },
+      technologies: ["Python", "Numpy"]
     },
     {
       title: "ChatterBox",
