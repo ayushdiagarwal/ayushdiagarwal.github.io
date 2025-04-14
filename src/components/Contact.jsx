@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="mb-8">
         <div className="flex items-center justify-center mb-4">
           <span className="text-red-500 font-mono text-lg mr-2">04.</span>
-          <h2 className="text-3xl font-bold text-gray-800">What's Next?</h2>
+          <h2 className="text-3xl font-bold text-gray-800">Get in Touch</h2>
         </div>
         <p className="max-w-xl text-gray-600 text-base leading-relaxed">
           I’m currently looking for a full-time role as a software engineer or web developer.

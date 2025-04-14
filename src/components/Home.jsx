@@ -58,8 +58,7 @@ const Home = () => {
                 >
                     I'm a student passionate about exploring the vast world of computing. 
                     From web development to algorithms, I love diving deep into different 
-                    technologies and understanding how they work. Currently building my 
-                    skills and turning curiosity into digital experiences.
+                    technologies and understanding how they work.
                 </p>
                 
                 <div

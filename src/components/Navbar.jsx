@@ -100,7 +100,7 @@ const Navbar = () => {
                     </li>
                     <li className="flex items-center">
                         <a 
-                            href="https://drive.google.com/file/d/1rxVgp8fSJXeCPmpXZxEpLEVZsPHlecGV/view?usp=sharing" 
+                            href="https://drive.google.com/file/d/1mPk_DH2WoELr6BkRjJL0Z2Yy0nfXgako/view?usp=sharing" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-black bg-transparent hover:bg-red-500 hover:text-white border border-red-500 px-4 py-2 rounded transition duration-300 font-medium inline-flex items-center"
@@ -145,7 +145,7 @@ const Navbar = () => {
                         </li>
                         <li className="pt-2">
                             <a 
-                                href="https://drive.google.com/file/d/1rxVgp8fSJXeCPmpXZxEpLEVZsPHlecGV/view?usp=sharing" 
+                                href="https://drive.google.com/file/d/1mPk_DH2WoELr6BkRjJL0Z2Yy0nfXgako/view?usp=sharing" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="block text-center text-black bg-transparent hover:bg-red-500 hover:text-white border border-red-500 px-4 py-2 rounded transition duration-300 font-medium"
