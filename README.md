@@ -1,12 +1,28 @@
-# React + Vite
+````markdown
+## 🚀 Deploying to GitHub Pages (via `docs/` folder)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To deploy the latest build of the site to GitHub Pages:
 
-Currently, two official plugins are available:
+1. Run the deploy script:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ```bash
+   npm run deploy
+   ```
+````
 
-## Expanding the ESLint configuration
+This will:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Build the project with Vite (`vite build`)
+- Clear the existing contents of the `docs/` folder
+- Copy the latest build output (`dist/`) into `docs/`
+
+2. Commit and push the updated `docs/` folder:
+
+   ```bash
+   git add docs/
+   git commit -m "Update site"
+   git push
+   ```
+
+Your changes will be live at:
+📍 `https://<your-github-username>.github.io`
