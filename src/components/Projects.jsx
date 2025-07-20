@@ -12,7 +12,7 @@ const projectsData = {
       description: "This project is a simple Raycaster that generates pseudo 3D scenes. It uses basic raycasting techniques to simulate a 3D environment on a 2D plane, providing an interactive and visually engaging experience. The project is implemented using Rust and SDL2, showcasing the power and efficiency of these technologies in creating real-time graphics applications.",
       image: raycaster,
       links: {
-        github: "https://github.com/AmyRChen/MERN-SocialMedia"
+        github: "https://github.com/ayushdiagarwal/Raycaster-Rust"
       },
       technologies: ["Rust", "SDL2"]
     },
