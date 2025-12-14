@@ -3,10 +3,19 @@ import githubIcon from '../assets/github.png';
 import raycaster from "../assets/1.png";
 import journal from "../assets/2.gif";
 import flapp from "../assets/3.png";
-import chatterBox from "../assets/4.jpg";
+import kazoom from "../assets/4.png";
 
 const projectsData = {
   featured: [
+    {
+      title: "Kazoom",
+      description: "A Shazam-like music recognition system built from scratch as a self-learning project. This application implements audio fingerprinting using FFT and STFT for time-frequency analysis, peak picking algorithms to create constellation maps, and hash-based matching to identify songs from audio clips. The project focuses on understanding the core algorithms behind music recognition, including spectrogram generation, local maxima detection, and efficient hash-based database matching.",
+      image: kazoom,
+      links: {
+        github: "https://github.com/ayushdiagarwal/Kazoom"
+      },
+      technologies: ["Python", "NumPy", "Librosa"]
+    },
     {
       title: "Raycaster",
       description: "This project is a simple Raycaster that generates pseudo 3D scenes. It uses basic raycasting techniques to simulate a 3D environment on a 2D plane, providing an interactive and visually engaging experience. The project is implemented using Rust and SDL2, showcasing the power and efficiency of these technologies in creating real-time graphics applications.",
@@ -33,15 +42,6 @@ const projectsData = {
         github: "https://github.com/ayushdiagarwal/Flapp",
       },
       technologies: ["Python", "Numpy"]
-    },
-    {
-      title: "ChatterBox",
-      description: "This is a chat application that utilizes Chat Engine for real-time communication between users. It integrates with OpenAI's chatGPT API to enable intelligent and natural language conversations. Users can engage with an AI chatbot and connect with other users by adding them to chat groups.",
-      image: chatterBox,
-      links: {
-        github: "https://github.com/ayushdiagarwal/chatterBox"
-      },
-      technologies: ["React", "Firebase", "Javascript", "Express.js"]
     }
   ],
   other: [

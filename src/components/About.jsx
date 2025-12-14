@@ -19,7 +19,7 @@ const About = () => {
 
         {/* About Paragraph */}
         <p className="font-ubuntu text-gray-700 text-lg sm:text-xl leading-relaxed tracking-wide">
-          Hey! I’m a second-year undergraduate student studying Electronics and Computer Engineering with a strong passion for learning and exploring the world of technology. Over time, I’ve dived into various domains including web development, AI/ML, and computer graphics—each of which has helped shape my curiosity and technical foundation.
+          Hey! I’m a second-year undergraduate student studying Electronics and Computer Engineering with a strong passion for learning and exploring the world of technology. Over time, I’ve dived into various domains including web development, AI/ML, and computer graphics, each of which has helped shape my curiosity and technical foundation.
           <br /><br />
           I’m particularly proficient in full-stack web development and have built several projects that reflect both functionality and creativity. Currently, I’m expanding my knowledge into the world of Web3, exploring how decentralized technologies can shape the future of the internet. I’m always on the lookout for new ideas, tools, and opportunities that push me to grow as a developer and thinker.
         </p>

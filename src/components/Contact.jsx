@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
         <p className="max-w-xl text-gray-600 text-base leading-relaxed">
           I’m currently looking for a full-time role as a software engineer or web developer.
-          Whether you’ve got a question, a collaboration idea, or just want to say hello —
+          Whether you’ve got a question, a collaboration idea, or just want to say hello, 
           I’d love to hear from you!
         </p>
       </div>
